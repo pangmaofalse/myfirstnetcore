@@ -1,0 +1,2 @@
+# myfirstnetcore
+myfirstnetcore
