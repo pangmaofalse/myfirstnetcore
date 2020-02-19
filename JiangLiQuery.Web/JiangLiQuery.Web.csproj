@@ -8,6 +8,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JiangLi.Model\JiangLiQuery.Model.csproj" />
+    <ProjectReference Include="..\JiangLi.Services\JiangLiQuery.Services.csproj" />
+    <ProjectReference Include="..\JiangLiQuery.Controllers\JiangLiQuery.Controllers.csproj" />
+    <ProjectReference Include="..\JiangLiQuery.Data\JiangLiQuery.Data.csproj" />
+    <ProjectReference Include="..\JiangLiQuery.IServices\JiangLiQuery.IServices.csproj" />
   </ItemGroup>
 
 </Project>

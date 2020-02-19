@@ -14,7 +14,7 @@ namespace JiangLiQuery.IServices
 
         T Modify(T newModel);
 
-        T Delete(int id);
+        T Delete(T newModel);
 
     }
 }
