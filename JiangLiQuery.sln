@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.Web", "JiangLiQuery.Web\JiangLiQuery.Web.csproj", "{CC05E221-27B0-4008-9463-F86361093421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.Model", "JiangLi.Model\JiangLiQuery.Model.csproj", "{F9778698-D392-4DB5-A284-0BD43A2C6A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.Services", "JiangLi.Services\JiangLiQuery.Services.csproj", "{FD871E13-7799-4B38-83EE-CCCB08F31A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.Data", "JiangLiQuery.Data\JiangLiQuery.Data.csproj", "{5CED06EA-12FA-4C1C-BFF7-1B4DFDAB4F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.IServices", "JiangLiQuery.IServices\JiangLiQuery.IServices.csproj", "{CA470EC4-2A95-4EA4-A7F5-6F7724D2D3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiangLiQuery.Controllers", "JiangLiQuery.Controllers\JiangLiQuery.Controllers.csproj", "{7D843CD8-A890-4A9A-B6B8-4220192D609F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC05E221-27B0-4008-9463-F86361093421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC05E221-27B0-4008-9463-F86361093421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC05E221-27B0-4008-9463-F86361093421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC05E221-27B0-4008-9463-F86361093421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9778698-D392-4DB5-A284-0BD43A2C6A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9778698-D392-4DB5-A284-0BD43A2C6A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9778698-D392-4DB5-A284-0BD43A2C6A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9778698-D392-4DB5-A284-0BD43A2C6A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD871E13-7799-4B38-83EE-CCCB08F31A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD871E13-7799-4B38-83EE-CCCB08F31A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD871E13-7799-4B38-83EE-CCCB08F31A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD871E13-7799-4B38-83EE-CCCB08F31A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CED06EA-12FA-4C1C-BFF7-1B4DFDAB4F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CED06EA-12FA-4C1C-BFF7-1B4DFDAB4F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CED06EA-12FA-4C1C-BFF7-1B4DFDAB4F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CED06EA-12FA-4C1C-BFF7-1B4DFDAB4F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA470EC4-2A95-4EA4-A7F5-6F7724D2D3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA470EC4-2A95-4EA4-A7F5-6F7724D2D3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA470EC4-2A95-4EA4-A7F5-6F7724D2D3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA470EC4-2A95-4EA4-A7F5-6F7724D2D3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D843CD8-A890-4A9A-B6B8-4220192D609F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D843CD8-A890-4A9A-B6B8-4220192D609F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D843CD8-A890-4A9A-B6B8-4220192D609F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D843CD8-A890-4A9A-B6B8-4220192D609F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B816E942-D322-4E9B-BADE-CB16F7B23890}
+	EndGlobalSection
+EndGlobal
