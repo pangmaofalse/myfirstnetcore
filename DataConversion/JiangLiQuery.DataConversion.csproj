@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JiangLi.Model\JiangLiQuery.Model.csproj" />
+    <ProjectReference Include="..\JiangLiQuery.ExcelHelper\JiangLiQuery.ExcelHelper.csproj" />
+  </ItemGroup>
+
+</Project>

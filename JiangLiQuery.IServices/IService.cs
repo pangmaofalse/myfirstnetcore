@@ -12,6 +12,8 @@ namespace JiangLiQuery.IServices
 
         T Install(T newModel);
 
+        IEnumerable<T> Install(IEnumerable<T> list);
+
         T Modify(T newModel);
 
         T Delete(T newModel);

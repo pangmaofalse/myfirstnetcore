@@ -19,4 +19,11 @@
     <ProjectReference Include="..\JiangLiQuery.IServices\JiangLiQuery.IServices.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\RewardDetails\" />
+    <Folder Include="Views\AnnualBonus\" />
+    <Folder Include="wwwroot\importfiles\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
 </Project>

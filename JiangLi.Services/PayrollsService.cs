@@ -5,20 +5,21 @@ using JiangLiQuery.IServices;
 using JiangLiQuery.Model.Entity;
 using JiangLiQuery.Data;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace JiangLiQuery.Services
 {
-    public class PayrollService : IService<Payrolls>
+    public class PayrollsService : IService<Payrolls>
     {
         private readonly DataContext _context;
 
-        public PayrollService(DataContext context) {
+        public PayrollsService(DataContext context) {
             _context = context;
         }
 
         public Payrolls Delete(Payrolls newModel)
         {
-            _context.Payrolls.Remove(newModel);
+             _context.Payrolls.Remove(newModel);
             _context.SaveChanges();
             return newModel;
         }
@@ -28,6 +29,16 @@ namespace JiangLiQuery.Services
             _context.Payrolls.Add(newModel);
             _context.SaveChanges();
             return newModel;
+        }
+
+        public IEnumerable<Payrolls> Install(IEnumerable<Payrolls> list) {
+
+            foreach (Payrolls p in list) {
+                _context.Payrolls.Add(p);
+            }
+            _context.SaveChanges();
+
+            return list;
         }
 
         public Payrolls Modify(Payrolls newModel)

@@ -1,0 +1,12 @@
+﻿
+@model ResultModel
+
+<h1>Excel导入</h1>
+<div>
+<form asp-controller="Payrolls" asp-action="Import" method="post" enctype="multipart/form-data">
+    <input name="file" type="file" id="file" />
+    <input name="submit" type="submit" value="批量上传" />
+    <span>@Model.Message</span>
+</form>
+
+</div>

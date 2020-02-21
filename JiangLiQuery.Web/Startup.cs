@@ -40,7 +40,7 @@ namespace JiangLiQuery.Web
 
 
             //添加服务
-            services.AddScoped<IService<Payrolls>, PayrollService>();
+            services.AddScoped<IService<Payrolls>, PayrollsService>();
 
 
         }
